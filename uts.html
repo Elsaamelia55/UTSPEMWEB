@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ElsaAmelia_0110223288_UTSFORM01</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+<div class="navbar">
+  <a href="#">Home</a>
+  <a href="#">Admin</a>
+  <a href="#">Kelola Masjid</a>
+</div>
+<br>
+  <form action="/action_page.php" method="post">
+    <table>
+      <tr>
+        <td>Nama Masjid:</td>
+        <td><input type="text" id="nama_mesjid" name="nama_mesjid" required></td>
+      </tr>
+      <tr>
+        <td>
+          <label for="Kecamatan">Kecamatan</label>
+        </td>
+        <td>
+          <select name="Kecamatan" id="Kecamatan">
+            <option value="">- Kecamatan</option>
+            <option value="Parungkuda">Parungkuda</option>
+            <option value="Pasir Putih">Pasir Putih</option>
+            <option value="Sawangan">Sawangan</option>
+          </select>
+        </td>
+      </tr>
+        <tr>
+        <td>
+          <label for="Kelurahan">Kelurahan</label>
+        </td>
+        <td>
+          <select name="Kelurahan" id="Kelurahan">
+            <option value="">- Kelurahan</option>
+            <option value="Parungkuda">Parungkuda</option>
+            <option value="Pasir Putih">Pasir Putih</option>
+            <option value="Sawangan">Sawangan</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td>Deskripsi Fasilitas:</td>
+        <td><textarea id="deskripsi_fasilitas" name="deskripsi_fasilitas" rows="4" cols="50" required></textarea></td>
+      </tr>
+      <tr>
+        <td>Nama Pengurus DKM:</td>
+        <td><input type="text" id="nama_pengurus_dkm" name="nama_pengurus_dkm" required></td>
+      </tr>
+      <tr>
+        <td>No HP/Telepon:</td>
+        <td><input type="tel" id="no_hp_telpon" name="no_hp_telpon" required></td>
+      </tr>
+      <tr>
+        <td>Email:</td>
+        <td><input type="email" id="email" name="email" required></td>
+      </tr>
+      <tr>
+        <td>Alamat Web:</td>
+        <td><input type="url" id="alamat_web" name="alamat_web" required></td>
+      </tr>
+      <tr>
+        <td>Alamat Lengkap:</td>
+        <td><input type="text" id="alamat_lengkap" name="alamat_lengkap" required></td>
+      </tr>
+      <tr>
+        <td>Latitude Longitude:</td>
+        <td><input type="text" id="latitude_longitude" name="latitude_longitude" required></td>
+      </tr>
+      <tr>
+      <td></td>
+      <td>
+        
+      <button class="btn btn-blue" type="Submit">Simpan</button>
+      <button class="btn btn-red" type="Submit">Update</button>
+      <button class="btn btn-pink" type ="Submit">Hapus</button>
+      </td>
+      </tr>
+    </table>
+  </form>
+</body>
+</html>
